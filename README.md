@@ -377,7 +377,7 @@ local libCreateNoti = function(Setting)
 	local colorG = tostring(Library_Function.Getcolor(getgenv().UIColor['Title Text Color'])[2])
 	local colorB = tostring(Library_Function.Getcolor(getgenv().UIColor['Title Text Color'])[3])
 	local color = colorR .. ',' .. colorG .. ',' .. colorB
-	TextLabelNoti.Text = "<font color=\"rgb(" .. color .. ")\">Nawy Hub</font> " .. getgenv().TitleNameNoti
+	TextLabelNoti.Text = "<font color=\"rgb(" .. color .. ")\">Abacaxi Hub</font> " .. getgenv().TitleNameNoti
 	
 	TextLabelNoti.Name = "TextLabelNoti"
 	TextLabelNoti.Parent = Topnoti
@@ -605,7 +605,7 @@ function Library:CreateWindow(Setting)
 	local colorG = tostring(Library_Function.Getcolor(getgenv().UIColor['Title Text Color'])[2])
 	local colorB = tostring(Library_Function.Getcolor(getgenv().UIColor['Title Text Color'])[3])
 	local color = colorR .. ',' .. colorG .. ',' .. colorB
-	TextLabelMain.Text = "<font color=\"rgb(" .. color .. ")\">Nawy Hub</font> " .. getgenv().MainDesc
+	TextLabelMain.Text = "<font color=\"rgb(" .. color .. ")\">abacaxi Hub</font> " .. getgenv().MainDesc
 
 	PageControl.Name = "Background1"
 	PageControl.Parent = Concacmain
